@@ -1,7 +1,11 @@
 {
   "name": "esri_task",
+  "author": "Can Özsoy",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "16.13.0"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -9,7 +13,11 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "esri-leaflet": "^3.0.3",
+    "esri-leaflet-vector": "^3.1.1",
+    "leaflet": "^1.7.1",
+    "vue": "^2.6.11",
+    "vue2-leaflet": "^2.7.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
