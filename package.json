@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "esri-leaflet": "^3.0.3",
+    "esri-leaflet-geocoder": "^3.1.1",
     "esri-leaflet-vector": "^3.1.1",
     "leaflet": "^1.7.1",
     "vue": "^2.6.11",

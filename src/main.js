@@ -2,6 +2,17 @@ import Vue from 'vue';
 import App from './App.vue';
 import "leaflet/dist/leaflet.css";
 import "@/assets/global.scss";
+import L from "leaflet";
+import "esri-leaflet-geocoder/dist/esri-leaflet-geocoder.css";
+
+delete L.Icon.Default.prototype._getIconUrl;
+
+L.Icon.Default.mergeOptions({
+  iconRetinaUrl: require('leaflet/dist/images/marker-icon-2x.png'),
+  iconUrl: require('leaflet/dist/images/marker-icon.png'),
+  shadowUrl: require('leaflet/dist/images/marker-shadow.png'),
+});
+
 
 Vue.config.productionTip = false
 
