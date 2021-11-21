@@ -1,4 +1,4 @@
-# esri_task
+# task
 
 ## Project setup
 ```
