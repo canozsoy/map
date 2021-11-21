@@ -34,7 +34,7 @@ export default {
     data() {
         return {
             config: {
-                apiKey: "AAPK815e434da023432c85761ff76f64df24XfXgrJUrC9ckvJzf-X_9eMgkGs1R6O7wuAUO-56trc7NsuKZdFF2q4JhM6pBlOPe",
+                apiKey: process.env.VUE_APP_API_KEY,
                 basemapEnum: "ArcGIS:DarkGray"
             },
             mapOptions: {
